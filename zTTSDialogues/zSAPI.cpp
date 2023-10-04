@@ -3,7 +3,6 @@
 
 namespace GOTHIC_ENGINE {
 	zSAPI::zSAPI() {
-		Init();
 	}
 
 	zSAPI::~zSAPI() {
