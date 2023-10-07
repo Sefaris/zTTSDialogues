@@ -145,7 +145,12 @@ instance MenuItem_Opt_Open_Link(C_MENU_ITEM_DEF)
 instance MenuItem_Union_Auto_zTTSDialogues(C_MENU_ITEM_UNION_DEF)
 {
   text[0]          = "zTTSDialogues";
-  text[1]          = "Configure zTTSDialogues settings";
+  text[1] = Str_GetLocalizedString(
+    "Наѝтройте параметры zTTSDialogues",
+    "Configure zTTSDialogues settings",
+    "zTTSDialogues-Einstellungen konfigurieren",
+    "Zmień ustawienia zTTSDialogues"
+  );
   onselaction[0]   = SEL_ACTION_STARTMENU;
   onselaction_s[0] = "zTTSDialogues:Menu_Opt_zTTSDialogues";
 };
@@ -175,9 +180,9 @@ instance MenuItem_Opt_zTTSDialogues_ReplaceAllDialogues(C_MENU_ITEM)
   );
   text[1] = Str_GetLocalizedString(
     "заменить все диалоги на Windows TTS",
-    "replace all dialogues with Windows TTS",
+    "Replace all dialogues with Windows TTS",
     "Ersetzen Sie alle Dialoge durch Windows TTS",
-    "zastąp wszystkie dialogi Windows TTS"
+    "Zastąp wszystkie dialogi Windows TTS"
   );
 };
 
@@ -210,10 +215,10 @@ instance MenuItem_Opt_zTTSDialogues_Language(C_MENU_ITEM)
     "Język"
   );
   text[1] = Str_GetLocalizedString(
-    "предпочтительный язык для Windows TTS",
-    "preffered language for Windows TTS",
-    "bevorzugte Sprache für Windows TTS",
-    "preferowany język dla Windows TTS"
+    "Предпочтительный язык для Windows TTS",
+    "Preffered language for Windows TTS",
+    "Bevorzugte Sprache für Windows TTS",
+    "Preferowany język dla Windows TTS"
   );
 };
 
@@ -242,9 +247,9 @@ instance MenuItem_Opt_zTTSDialogues_Gender(C_MENU_ITEM)
   );
   text[1] = Str_GetLocalizedString(
     "Предпочитаемый пол для Windows TTS",
-    "preferred gender of the Windows TTS",
-    "bevorzugtes Geschlecht der Windows TTS",
-    "preferowana płeć dla Windows TTS"
+    "Preferred gender of the Windows TTS",
+    "Bevorzugtes Geschlecht der Windows TTS",
+    "Preferowana płeć dla Windows TTS"
   );
 };
 

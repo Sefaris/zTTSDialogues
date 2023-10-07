@@ -59,8 +59,8 @@ IDR_PATCH1              PATCH                   "Plugin.patch"
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,80
- PRODUCTVERSION 1,0,0,80
+ FILEVERSION 1,0,0,84
+ PRODUCTVERSION 1,0,0,84
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -77,12 +77,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "Sefaris"
             VALUE "FileDescription", "Windows TTS for unvoiced dialogues"
-            VALUE "FileVersion", "1.0.0.80"
+            VALUE "FileVersion", "1.0.0.84"
             VALUE "InternalName", "zTTSDialogues"
             VALUE "LegalCopyright", "Copyright (C) 2023"
             VALUE "OriginalFilename", "zTTSDialogues"
             VALUE "ProductName", "zTTSDialogues"
-            VALUE "ProductVersion", "1.0.0.80"
+            VALUE "ProductVersion", "1.0.0.84"
         END
     END
     BLOCK "VarFileInfo"
