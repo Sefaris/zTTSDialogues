@@ -118,7 +118,7 @@ instance MenuItem_Opt_Headline(C_MENU_ITEM_DEF)
 
 func int Act_OpenWebLink()
 {
-  Open_Link("https://github.com/fyryNy/zTTSDialogues");
+  Open_Link("https://github.com/Sefaris/zTTSDialogues");
   return 0;
 };
 
@@ -138,7 +138,7 @@ instance MenuItem_Opt_Open_Link(C_MENU_ITEM_DEF)
     "Otwórz stronę projektu"
   );
 
-  text[1]          = "github.com/fyryNy/zTTSDialogues";
+  text[1]          = "https://github.com/Sefaris/zTTSDialogues";
 };
 
 // ------ Menu ------
