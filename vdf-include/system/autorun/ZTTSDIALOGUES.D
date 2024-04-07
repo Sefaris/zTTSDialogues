@@ -229,7 +229,7 @@ instance MenuItem_Opt_zTTSDialogues_Language_Choice(C_MENU_ITEM_DEF)
   
   onchgsetoption        = "Language";
   onchgsetoptionsection = "zTTSDialogues";
-  text[0]               = "Other|Russian|English|German|Polish|Romanian|Italian|Czech|Spanish";
+  text[0]               = "Other|Russian|English|Deutsch|Polish|Romanian|Italian|Czech|Spanish";
 };
 
 instance MenuItem_Opt_zTTSDialogues_Gender(C_MENU_ITEM)
@@ -280,6 +280,12 @@ instance MenuItem_Opt_zTTSDialogues_VoiceRate(C_MENU_ITEM)
     "Voice speed",
     "Sprechgeschwindigkeit",
     "Szybkość głosu"
+  );
+    text[1] = Str_GetLocalizedString(
+    "Скорость чтения текста для Windows TTS",
+    "Speed of the text reading for Windows TTS",
+    "Sprechgeschwindigkeit der Windows TTS",
+    "Prędkość czytania tekstu dla Windows TTS"
   );
 };
 
