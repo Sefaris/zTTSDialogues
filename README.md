@@ -8,6 +8,10 @@ VoiceVolume=-1
 ;
 ; Volume of the TTS voice: -1 = autodetect
 
+VoiceRate=11
+; 
+; Speed of the text reading (min: 0, max: 20)
+
 ReplaceAllDialogues=0
 ;
 ; Replace all original dialogues with TTS (1) or only dialogues without voice files (0)
