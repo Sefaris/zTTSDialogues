@@ -268,6 +268,31 @@ instance MenuItem_Opt_zTTSDialogues_Gender_Choice(C_MENU_ITEM_DEF)
   );
 };
 
+instance MenuItem_Opt_zTTSDialogues_VoiceRate(C_MENU_ITEM)
+{
+  CurrentMenuItem_PY = 4;
+  C_MENU_ITEM_TEXT_BASE();
+  fontname = FontSmall;
+  posy += Menu_DY * CurrentMenuItem_PY + Text_DY;
+
+  text[0] = Str_GetLocalizedString(
+    "Скорость голоса",
+    "Voice speed",
+    "Sprechgeschwindigkeit",
+    "Szybkość głosu"
+  );
+};
+
+instance MenuItem_Opt_zTTSDialogues_VoiceRate_Choice(C_MENU_ITEM_DEF)
+{
+  C_MENUITEM_CHOICE_BASE();
+  posy += Menu_DY * CurrentMenuItem_PY;
+  
+  onchgsetoption        = "VoiceRate";
+  onchgsetoptionsection = "zTTSDialogues";
+  text[0]               = "0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20";
+};
+
 instance MenuItem_Opt_zTTSDialogues_Open_Link(C_MENU_ITEM)
 {
   MenuItem_Opt_Open_Link();

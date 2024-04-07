@@ -89,6 +89,10 @@ namespace GOTHIC_ENGINE {
 		if (VoiceVolume < 0)
 			VoiceVolume = static_cast<int>(zoptions->ReadReal("SOUND", "soundVolume", 1.0f) * 200.0f);
 
+		VoiceRate = zoptions->ReadInt("zTTSDialogues", "VoiceRate", VoiceRate);
+		std::clamp(VoiceRate, 0, 20);
+		VoiceRate -= 10;
+
 		ReplaceAllDialogues = zoptions->ReadBool("zTTSDialogues", "ReplaceAllDialogues", ReplaceAllDialogues);
 
 		Gender = zoptions->ReadInt("zTTSDialogues", "Gender", 0) == 0 ? L"Male" : L"Female";

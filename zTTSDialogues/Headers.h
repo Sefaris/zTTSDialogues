@@ -2,6 +2,7 @@
 // Add your headers this
 
 // Automatically generated block
+#include <algorithm>
 #include <sapi.h>
 #pragma warning (disable:4996)
 #include <sphelper.h>

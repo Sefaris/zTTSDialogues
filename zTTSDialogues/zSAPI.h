@@ -2,7 +2,7 @@
 // Union HEADER file
 
 namespace GOTHIC_ENGINE {
-	int VoiceRate = 1;
+	int VoiceRate = 11;
 	int VoiceVolume = -1;
 	bool ReplaceAllDialogues = false;
 	bool ShouldRead = false;
